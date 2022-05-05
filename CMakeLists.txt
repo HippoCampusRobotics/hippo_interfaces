@@ -10,6 +10,8 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ActuatorControls.msg"
   "msg/Float64Stamped.msg"
+  "msg/EscRpms.msg"
+  "msg/EscVoltages.msg"
   DEPENDENCIES builtin_interfaces std_msgs
 )
 
